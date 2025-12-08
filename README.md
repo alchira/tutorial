@@ -8,7 +8,7 @@ Training and reference matririal of specific use cases of XCSS.
 
 ### Install Packages
 
-- This repository is initilized with offial minimal spin [XCSS Scaffold](https://www.npmjs.com/package/xcss-scaffold), Which also installs [XCSS Central](https://www.npmjs.com/package/xcss-central) along with it.
+- This repository is initilized with official minimal spin [XCSS Scaffold](https://www.npmjs.com/package/xcss-scaffold), Which also installs [XCSS Central](https://www.npmjs.com/package/xcss-central) along with it.
 
 ```sh
   # Install XCSS Scaffold and XCSS Central(dependency).

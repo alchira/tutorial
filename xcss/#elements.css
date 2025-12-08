@@ -68,10 +68,13 @@ h6 {
 }
 
 h1 {
-  font-size: var(--font-size-h1);
-  margin-bottom: var(--margin-bottom-large);
-  font-family: var(--font-display);
-  font-weight: 700;
+  text-decoration: none;
+  font-weight: normal;
+  outline: none;
+  text-align: center;
+  font-size: 1.7em;
+  line-height: 6em;
+  min-width: 1em;
 }
 
 h2 {
