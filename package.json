@@ -1,7 +1,7 @@
 {
-  "name": "xcss-tutorial",
+  "name": "xtatix-tutorial",
   "version": "0.0.0",
-  "description": "Tutorial walkthrough for XCSS, Try out practical examples on how XCSS Works.",
+  "description": "Tutorial walkthrough for Xtatix, Try out practical examples on how Xtatix Works.",
   "main": "index.js",
   "scripts": {
     "lib:compile": "npx sass libsource:libraries --no-source-map",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yshelldev/xcss-tutorial.git"
+    "url": "git+https://github.com/yshelldev/xtatix-tutorial.git"
   },
   "keywords": [
-    "xcss",
+    "xtatix",
     "tutorial",
     "css",
     "walk-through"
@@ -21,10 +21,10 @@
   "author": "yshelldev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yshelldev/xcss-tutorial/issues"
+    "url": "https://github.com/yshelldev/xtatix-tutorial/issues"
   },
-  "homepage": "https://github.com/yshelldev/xcss-tutorial#readme",
+  "homepage": "https://github.com/yshelldev/xtatix-tutorial#readme",
   "devDependencies": {
-    "xcss-scaffold": "latest"
+    "xcaffold": "latest"
   }
 }
