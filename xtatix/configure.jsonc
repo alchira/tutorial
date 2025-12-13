@@ -1,8 +1,21 @@
 {
   "proxymap": [
     {
-      "source": "compiled",
+      "source": "tutorial-out",
       "target": "tutorial",
+      "stylesheet": "styles.css",
+      "extensions": {
+        "md": {
+          "watch": [
+            "id",
+            "class"
+          ]
+        }
+      }
+    },
+    {
+      "source": "example-out",
+      "target": "example",
       "stylesheet": "styles.css",
       "extensions": {
         "html": {
@@ -12,12 +25,6 @@
           ]
         },
         "htm": {
-          "watch": [
-            "id",
-            "class"
-          ]
-        },
-        "md": {
           "watch": [
             "id",
             "class"
