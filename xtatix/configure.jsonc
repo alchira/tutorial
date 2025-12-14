@@ -45,10 +45,10 @@
   },
   "tweaks": {
     // ═══════════════════════════════════
-    // STAPLE REPLACEMENT TAGS
+    // STITCH REPLACEMENT TAGS
     // ═══════════════════════════════════
-    // "staple-prefix": "<div style=\"display: none;\">",
-    // "staple-suffix": "</div>",
+    // "stitch-prefix": "<div style=\"display: none;\">",
+    // "stitch-suffix": "</div>",
     // ═══════════════════════════════════
     // STYLES REPLACEMENT TAGS
     // ═══════════════════════════════════
