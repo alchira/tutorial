@@ -4,8 +4,8 @@
 {
   "proxymap": [
     {
-      "source": "compiled",
-      "target": "tutorial",
+      "target": "compiled",
+      "source": "tutorial",
       "stylesheet": "styles.css",
       "extensions": {
         "html": [

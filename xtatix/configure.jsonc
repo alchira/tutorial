@@ -1,8 +1,8 @@
 {
   "proxymap": [
     {
-      "source": "tutorial-out",
-      "target": "tutorial",
+      "source": "tutorial",
+      "target": "tutorial-out",
       "stylesheet": "styles.css",
       "extensions": {
         "md": {
@@ -14,8 +14,8 @@
       }
     },
     {
-      "source": "example-out",
-      "target": "example",
+      "source": "example",
+      "target": "example-out",
       "stylesheet": "styles.css",
       "extensions": {
         "html": {
