@@ -1,10 +1,7 @@
-<!-- Keyframes -->
+<sketch loader$$compas>
+    <!-- From Uiverse.io by Nawsome -->
 
-
-<!-- From Uiverse.io by Nawsome -->
-
-<sketch load$$compas>
-    <style _$-arrows42 id="#arrows42">
+    <style id="#arrows42" kf$-arrows42="animation-name: \#arrows42;">
         @keyframes \#arrows42 {
             from {
                 transform: rotate(45deg);
@@ -16,7 +13,7 @@
         }
     </style>
 
-    <style _$-ringRotate42 id="#ringRotate42">
+    <style id="#ringRotate42" kf$-ringRotate42="animation-name: \#ringRotate42;">
         @keyframes \#ringRotate42 {
             from {
                 transform: rotate(0);
@@ -28,7 +25,7 @@
         }
     </style>
 
-    <style _$-ringStroke42 id="#ringStroke42">
+    <style id="#ringStroke42" kf$-ringStroke42="animation-name: \#ringStroke42;">
         @keyframes \#ringStroke42 {
 
             from,
@@ -44,7 +41,7 @@
         }
     </style>
 
-    <style _$-tick42 id="#tick42">
+    <style id="#tick42" kf$-tick42="animation-name: \#tick42;">
         @keyframes \#tick42 {
 
             from,
@@ -61,68 +58,61 @@
         }
     </style>
 
-
-    <sketch 
-    _$animate="
+    <sketch _$animate="
     	animation-duration: 2s;
     	animation-timing-function: linear;
     	animation-iteration-count: infinite;
-    "
-     />
+    " />
 
-    <svg class="~$pl" 
-    _$pl="
+    <svg class="~$pl" _$pl="
     	display: block;
     	width: 9.375em;
     	height: 9.375em;
-    "
-     viewBox="0 0 160 160" width="160px" height="160px" xmlns="http://www.w3.org/2000/svg">
+    " viewBox="0 0 160 160" width="160px" height="160px" xmlns="http://www.w3.org/2000/svg">
         <defs>
-            <linearGradient id="#grad" x1="0" y1="0" x2="0" y2="1">
+            <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stop-color="#000"></stop>
                 <stop offset="100%" stop-color="#fff"></stop>
             </linearGradient>
             <mask id="#mask1">
-                <rect x="0" y="0" width="160" height="160" fill="url(\#grad)"></rect>
+                <rect x="0" y="0" width="160" height="160" fill="url(#grad)"></rect>
             </mask>
             <mask id="#mask2">
-                <rect x="28" y="28" width="104" height="104" fill="url(\#grad)"></rect>
+                <rect x="28" y="28" width="104" height="104" fill="url(#grad)"></rect>
             </mask>
         </defs>
 
-        <style 
-        _$ring-common="transform-origin: 80px 80px;"
-         />
+        <style _$ring-common="transform-origin: 80px 80px;" />
+        <style _$ring-stroke="
+        	~ kf$-ringStroke42;
+        	animation-name: \#ringStroke42;
+        	transform: rotate(-45deg);
+        " />
+
         <g>
-            <g class="~$ring-common ~$ring-rotate ~$animate" 
-            _$ring-rotate="
-            	~ $-ringRotate42;
+            <g class="~$ring-rotate ~$ring-common ~$animate" _$ring-rotate="
+            	~ kf$-ringRotate42;
             	animation-name: \#ringRotate42;
-            "
-            >
-                <circle class="ring-stroke ~$animate" cx="80" cy="80" r="72" fill="none" stroke="hsl(223,90%,55%)"
-                    stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452" stroke-linecap="round"
-                    transform="rotate(-45,80,80)"></circle>
+            ">
+                <circle class="~$ring-stroke ~$animate ~$ring-common" cx="80" cy="80" r="72" fill="none"
+                    stroke="hsl(223,90%,55%)" stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452"
+                    stroke-linecap="round" transform="rotate(-45,80,80)"></circle>
             </g>
         </g>
-        <g mask="url(\#mask1)">
-            <g class="~$ring-common ~$ring-stroke ~$animate" 
-            _$ring-stroke="
-            	~ $-ringStroke42;
-            	animation-name: \#ringStroke42;
-            	transform: rotate(-45deg);
-            "
-            >
-                <circle class="~$ring-stroke ~$animate" cx="80" cy="80" r="72" fill="none" stroke="hsl(193,90%,55%)"
-                    stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452" stroke-linecap="round"
-                    transform="rotate(-45,80,80)"></circle>
+        <g mask="url(#\#mask1)">
+            <g class="~$ring-rotate ~$ring-common  ~$animate">
+                <circle class="~$ring-stroke ~$ring-common ~$animate" cx="80" cy="80" r="72" fill="none"
+                    stroke="hsl(193,90%,55%)" stroke-width="16" stroke-dasharray="452.39 452.39" stroke-dashoffset="452"
+                    stroke-linecap="round" transform="rotate(-45,80,80)"></circle>
             </g>
         </g>
 
-        <style 
-        _$tick="
-        	~ $-tick42;
+        <style _$tick="
+        	~ kf$-tick42;
         	animation-name: \#tick42;
+        	animation-duration: 2s;
+        	animation-timing-function: linear;
+        	animation-iteration-count: infinite;
         	&:nth-child & {
         		& (2) {
         			animation-delay: -1.75s;
@@ -146,62 +136,59 @@
         			animation-delay: -0.25s;
         		}
         	}
-        "
-         />
+        " />
 
         <g>
             <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12" stroke-linecap="round"
                 transform="translate(80,80)">
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(-135,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(-90,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(-45,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(0,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(45,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(90,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(135,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,10%,90%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,10%,90%)" points="0,2 0,14"
                     transform="rotate(180,0,0) translate(0,40)"></polyline>
             </g>
         </g>
-        <g mask="url(\#mask1)">
+        <g mask="url(#\#mask1)">
             <g stroke-width="4" stroke-dasharray="12 12" stroke-dashoffset="12" stroke-linecap="round"
                 transform="translate(80,80)">
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(-135,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(-90,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(-45,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(0,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(45,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(90,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(135,0,0) translate(0,40)"></polyline>
-                <polyline class="~$tick ~$animate" stroke="hsl(223,90%,80%)" points="0,2 0,14"
+                <polyline class="~$tick" stroke="hsl(223,90%,80%)" points="0,2 0,14"
                     transform="rotate(180,0,0) translate(0,40)"></polyline>
             </g>
         </g>
 
         <g>
             <g transform="translate(64,28)">
-                <g class="~$arrows ~$animate" transform="rotate(45,16,52)" 
-                _$arrows="
-                	~ $-arrows42;
-                	animation-name: \#arrows42;
+                <g class="~$arrows ~$animate" transform="rotate(45,16,52)" _$arrows="
+                	~ kf$-arrows42;
                 	transform: rotate(45deg);
                 	transform-origin: 16px 52px;
-                "
-                >
+                	animation-name: \#arrows42;
+                ">
                     <path fill="hsl(3,90%,55%)"
                         d="M17.998,1.506l13.892,43.594c.455,1.426-.56,2.899-1.998,2.899H2.108c-1.437,0-2.452-1.473-1.998-2.899L14.002,1.506c.64-2.008,3.356-2.008,3.996,0Z">
                     </path>
@@ -211,7 +198,7 @@
                 </g>
             </g>
         </g>
-        <g mask="url(\#mask2)">
+        <g mask="url(#\#mask2)">
             <g transform="translate(64,28)">
                 <g class="~$arrows ~$animate" transform="rotate(45,16,52)">
                     <path fill="hsl(333,90%,55%)"
