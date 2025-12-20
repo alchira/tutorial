@@ -47,8 +47,8 @@
     // ═══════════════════════════════════
     // STITCH REPLACEMENT TAGS
     // ═══════════════════════════════════
-    // "stitch-prefix": "<div style=\"display: none;\">",
-    // "stitch-suffix": "</div>",
+    // "sketch-prefix": "<div style=\"display: none;\">",
+    // "sketch-suffix": "</div>",
     // ═══════════════════════════════════
     // STYLES REPLACEMENT TAGS
     // ═══════════════════════════════════
