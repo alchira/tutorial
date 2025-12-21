@@ -2,7 +2,7 @@
 | GLASS
 -->
 
-<stitch stitch-distortion$$glass>
+<sketch stitch-distortion$$glass>
 	<svg width="0" height="0" color-interpolation-filters="sRGB">
 		<filter id="glass">
 			<feComponentTransfer result="SourceBackground" in="SourceGraphic">
@@ -54,10 +54,10 @@
 			<feComposite in2="SourceBackground"></feComposite>
 		</filter>
 	</svg>
-</stitch>
+</sketch>
 
 <!-- -->
-<stitch stitch-distortion$$liquid-glass>
+<sketch stitch-distortion$$liquid-glass>
 	<svg width="0" height="0" color-interpolation-filters="sRGB">
 		<filter id="liquid-glass" x="-20%" y="-20%" width="140%" height="140%">
 			<!-- #region Unpacking Sources -->
@@ -203,9 +203,9 @@
 			<!-- <feComposite in2="SourceBackground"/> -->
 		</filter>
 	</svg>
-</stitch>
+</sketch>
 
-<stitch stitch-distortion$$liquid-glass-new>
+<sketch stitch-distortion$$liquid-glass-new>
 	<svg width="0" height="0" color-interpolation-filters="sRGB">
 		<filter id="liquid-glass-new" x="-20%" y="-20%" width="140%" height="140%">
 			<!-- 
@@ -336,10 +336,10 @@
 			<!-- #endregion Compositing -->
 		</filter>
 	</svg>
-</stitch>
+</sketch>
 
 <!-- Fresnel-ish -->
-<stitch stitch-distortion$$fresnal>
+<sketch stitch-distortion$$fresnal>
 	<svg width="0" height="0" color-interpolation-filters="sRGB">
 		<filter id="fresnel">
 			<feMorphology in="SourceMask" result="stroke-width" radius="3" />
@@ -354,4 +354,4 @@
 			<feBlend result="outlined-balls" in="SourceGraphic" mode="overlay" />
 		</filter>
 	</svg>
-</stitch>
+</sketch>
