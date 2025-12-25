@@ -37,14 +37,14 @@ Training and reference matririal of specific use cases of Alchira.
 
 ### Install Packages
 
-- This repository is initilized with official minimal spin [Alchira Scaffold](https://www.npmjs.com/package/xcaffold), Which also installs [Alchira Central](https://www.npmjs.com/package/alchira-central) along with it.
+- This repository is initilized with official minimal spin [Alchira Scaffold](https://www.npmjs.com/package/scaffold), Which also installs [Alchira Central](https://www.npmjs.com/package/alchira-central) along with it.
 
 ```sh
   # Install Alchira Scaffold and Alchira Central(dependency).
-  npm install xcaffold 
+  npm install scaffold 
   
   # Reconfigure Alchira Central with the installed flavour.
-  alchira init xcaffold 
+  alchira init scaffold 
 ```
 
 > If you want to go flavourless install [Alchira Central](https://www.npmjs.com/package/alchira-central), and start from scratch.

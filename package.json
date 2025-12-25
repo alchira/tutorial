@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/yshelldev/alchira-tutorial#readme",
   "devDependencies": {
-    "xcaffold": "latest"
+    "scaffold": "latest"
   }
 }
