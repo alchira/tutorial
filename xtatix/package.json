@@ -1,13 +1,6 @@
 {
   "name": "xcaffold",
-  "version": "0.0.27",
-  "configs": {
-    "name": "scaffold",
-    "version": "0.0.27",
-    "sandbox": "sandbox",
-    "blueprint": "blueprint",
-    "libraries": "libraries"
-  },
+  "version": "0.0.1",
   "scripts": {
     "lib:build": "npx sass libsource:libraries --no-source-map",
     "lib:watch": "npx sass --watch libsource:libraries --no-source-map",
