@@ -7,19 +7,19 @@
     "build": "npm install --include=dev && npm run lib:build "
   },
   "type": "module",
-  "description": "Template for creating flavours for Xtatix.",
+  "description": "Template for creating flavours for Alchira.",
   "license": "MIT",
-  "homepage": "https://www.xtatix.io",
+  "homepage": "https://www.alchira.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/xtatixone/xcaffold"
+    "url": "https://github.com/alchira/xcaffold"
   },
   "author": {
     "name": "Vyshnav Prasad",
     "url": "https://www.yshell.dev"
   },
   "bugs": {
-    "url": "https://github.com/xtatixone/xcaffold/issues"
+    "url": "https://github.com/alchira/xcaffold/issues"
   },
   "funding": {
     "type": "github",
@@ -27,13 +27,13 @@
   },
   "keywords": [
     "css",
-    "xtatix-template",
+    "alchira-template",
     "css-framework"
   ],
   "dev-dependencies": {
     "sass": "latest"
   },
   "dependencies": {
-    "xtatix": "latest"
+    "alchira": "latest"
   }
 }

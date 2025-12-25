@@ -1,7 +1,7 @@
 {
-  "name": "xtatix-tutorial",
+  "name": "alchira-tutorial",
   "version": "0.0.0",
-  "description": "Tutorial walkthrough for Xtatix, Try out practical examples on how Xtatix Works.",
+  "description": "Tutorial walkthrough for Alchira, Try out practical examples on how Alchira Works.",
   "main": "index.js",
   "scripts": {
     "lib:compile": "npx sass libsource:libraries --no-source-map",
@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yshelldev/xtatix-tutorial.git"
+    "url": "git+https://github.com/yshelldev/alchira-tutorial.git"
   },
   "keywords": [
-    "xtatix",
+    "alchira",
     "tutorial",
     "css",
     "walk-through"
@@ -21,9 +21,9 @@
   "author": "yshelldev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yshelldev/xtatix-tutorial/issues"
+    "url": "https://github.com/yshelldev/alchira-tutorial/issues"
   },
-  "homepage": "https://github.com/yshelldev/xtatix-tutorial#readme",
+  "homepage": "https://github.com/yshelldev/alchira-tutorial#readme",
   "devDependencies": {
     "xcaffold": "latest"
   }

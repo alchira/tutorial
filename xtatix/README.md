@@ -1,16 +1,16 @@
 # Xcaffold: Scaffold Template to Spin Your Flavor
 
-Use this repository as a template to create your own Xtatix frameworks and flavors.
+Use this repository as a template to create your own Alchira frameworks and flavors.
 
 ## Navigation
 
 - [Installation](#installation)
 - [Create Flavour](#how-to-spin-your-flavour)
-- [Learn Xtatix Basics](https://www.xtatix.io/documentation)
+- [Learn Alchira Basics](https://www.alchira.io/documentation)
 
 # Installation
 
-1. Install prefered flavour of Xtatix using your package manager:
+1. Install prefered flavour of Alchira using your package manager:
 
 ```sh
   npm install xcaffold
@@ -18,13 +18,13 @@ Use this repository as a template to create your own Xtatix frameworks and flavo
   pnpm add xcaffold
 ```
 
-2. Initialize Xtatix in your project directory with the installed **flavour**:
+2. Initialize Alchira in your project directory with the installed **flavour**:
 
 ```sh
-  xtatix init xcaffold
+  alchira init xcaffold
 ```
 
-This creates the xtatix/* config directory using your chosen flavour.
+This creates the alchira/* config directory using your chosen flavour.
 
 ---
 
@@ -36,7 +36,7 @@ Use this scaffold template as a starting point for your customized CSS framework
 
 ### 1. Clone the Repository
 
-Start by cloning this repository to set up your Xtatix scaffold project.
+Start by cloning this repository to set up your Alchira scaffold project.
 
 ### 2. Configure for Your Development Setup
 
@@ -56,12 +56,12 @@ Adjust the folder structure to suit your project needs. If you do so, be sure to
 
 - **Purpose:** Live preview area for testing components.
 - **Customization:** Freely modify to fit your workflow while preserving API compatibility.
-- **Configuration:** ./xtatix/configure.jsonc from working directory is automatically shared with sketchpad-view responses for extended functionality.
+- **Configuration:** ./alchira/configure.jsonc from working directory is automatically shared with sketchpad-view responses for extended functionality.
 
 ##### `./blueprint`
 
 - **Purpose:** Contains foundational stylesheets, design tokens, and core system components.
-> **Important:** Do not modify directory structure. Edit only content within files to maintain Xtatix compatibility.
+> **Important:** Do not modify directory structure. Edit only content within files to maintain Alchira compatibility.
 
 ### 4. Update `package.json`
 
@@ -79,7 +79,7 @@ Ensure that your package.json file contains correct author and repository detail
 }
 ```
 
-This configuration connects directly with the xtatix-central tooling.
+This configuration connects directly with the alchira-central tooling.
 ​
 ### 5. Update `README.md`
 
