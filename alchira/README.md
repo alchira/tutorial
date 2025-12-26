@@ -79,7 +79,7 @@ Ensure that your package.json file contains correct author and repository detail
 }
 ```
 
-This configuration connects directly with the alchira-central tooling.
+This configuration connects directly with the alchira tooling.
 ​
 ### 5. Update `README.md`
 
