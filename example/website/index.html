@@ -51,13 +51,12 @@
 		pointer-events: none;
 	}
 ">
-	<!-- sketch -->
 	<h1 contenteditable spellcheck="false">Made by cubiq.</h1>
 
 	<nav class="~$nav" -$nav="
         	~ stitch-pack$$pack-upper;
-        	~ stitch-distortion$$glass stitch-distortion$$liquid-glass;
-        	~ stitch-distortion$$liquid-glass-new stitch-distortion$$fresnal;
+        	~ distortion$$glass distortion$$liquid-glass;
+        	~ distortion$$liquid-glass-new distortion$$fresnal;
         	width: 100%;
         	position: relative;
         	font-size: 1.5rem;
@@ -92,12 +91,22 @@
         	}
         ">
 		<div class="~lucide$$icons">
-			<svg class="~lucide$$icon &lucide$$icon-home"> </svg>
-			<svg class="~lucide$$icon &lucide$$icon-store"> </svg>
-			<svg class="~lucide$$icon &lucide$$icon-camera"> </svg>
-			<svg class="~lucide$$icon &lucide$$icon-search"> </svg>
+			<svg class="~lucide$$icon">
+				<style &="= ~lucide$$icon-home" />
+			</svg>
+			<svg class="~lucide$$icon">
+				<style &="= ~lucide$$icon-store" />
+			</svg>
+			<svg class="~lucide$$icon">
+				<style &="= ~lucide$$icon-camera" />
+			</svg>
+			<svg class="~lucide$$icon">
+				<style &="= ~lucide$$icon-search" />
+			</svg>
 		</div>
 	</nav>
+
+	<!-- sketch -->
 </body>
 
 </html>
