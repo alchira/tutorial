@@ -9,7 +9,7 @@ For details, please read the full EULA document provided in this repository.
 
 ## What is Alchira?
 
-![Preview](https://github.com/alchira/vscode/raw/HEAD/preview.png)
+![Preview](./assets/preview.png)
 
 Alchira is a constraint-driven CSS build-time kernel designed to be the foundational engine for building custom CSS frameworks. Rather than being a traditional CSS framework loaded with predefined classes, Alchira provides a powerful structural abstraction that preserves the full flexibility of vanilla CSS while adding native dependency management and modular composition. It works seamlessly across any text-based environment, is framework agnostic, and integrates effortlessly with existing design systems and token libraries.
 
@@ -27,7 +27,7 @@ Alchira strikes a careful balance between raw flexibility and developer experien
 
 In short, Alchira is the essential, extensible core upon which efficient, scalable, and maintainable CSS frameworks can be built—offering the power and performance that modern design systems and large-scale projects demand.
 
-Training and reference matririal of specific use cases of Alchira.
+Training and reference matririal for Alchira.
 
 [Continue Locally](vscode://vscode.dev/clone?url=https://github.com/yshelldev/alchira-tutorial)
 
@@ -41,10 +41,10 @@ Training and reference matririal of specific use cases of Alchira.
 
 ```sh
   # Install Alchira Scaffold and Alchira Central(dependency).
-  npm install scaffold 
+  npm install @alchira/scaffold 
   
   # Reconfigure Alchira Central with the installed flavour.
-  alchira init scaffold 
+  alchira init @alchira/scaffold 
 ```
 
 > If you want to go flavourless install [Alchira Central](https://www.npmjs.com/package/alchira), and start from scratch.
@@ -60,4 +60,4 @@ After installation go through [tutorial](./tutorial/extention.md), to get famili
 
 ## Navigation
 
-- [Go through setup directory.](./alchira/README.md)
+- [Go through setup directory.](./SETUP.md)
