@@ -2,7 +2,7 @@
 
 ## End-User License Agreement (EULA)
 
-By using this software, you agree to the terms and conditions outlined in the [End-User License Agreement](https://www.alchira.io/agreements/license).
+By using this software, you agree to the terms and conditions outlined in the [End-User License Agreement](https://github.com/alchira/agreements/license).
 For details, please read the full EULA document provided in this repository.
 
 ---
