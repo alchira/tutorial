@@ -1,5 +1,5 @@
 ---
-title: 8. Appendix
+title: Appendix
 ---
 
 ## Errors & diagnostics
